@@ -7,7 +7,7 @@ class Api::SessionsController < ApplicationController
       login(@user)
       render "api/users/show"
     else
-      render (json: ["Invalid Login Information"], status: 401)
+      render (json: ["Invalid Login"], status: 401)
     end
   end
 

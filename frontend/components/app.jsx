@@ -12,7 +12,7 @@ const App = ({ children }) => (
       </div>
     </nav>
     
-    <div className='homepage-hero-module'>
+    {/* <div className='homepage-hero-module'>
       <div className='video-container'>
         <div className='filter'></div>
         <video autoPlay loop className='fillWidth'>
@@ -23,7 +23,10 @@ const App = ({ children }) => (
           <img src={ window.assets.landingPageImage } alt="" />
         </div>
       </div>
-    </div>
+    </div> */}
+    <section className='session-form-container'>
+      { children }
+    </section>
   </div>
 );
 
